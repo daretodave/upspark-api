@@ -1,0 +1,27 @@
+{
+  "name": "upspark-api",
+  "version": "1.0.0",
+  "description": "Some backend functionality for the upspark command runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daretodave/upspark-api.git"
+  },
+  "author": "David Rehmat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daretodave/upspark-api/issues"
+  },
+  "homepage": "https://github.com/daretodave/upspark-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dateformat": "^2.0.0",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "nodemailer": "^4.0.0",
+    "nodemailer-plugin-inline-base64": "^2.0.0",
+  }
+}
